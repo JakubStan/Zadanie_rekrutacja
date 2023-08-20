@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie rekrutacyjne</title>
+    <link rel="stylesheet" href="styles.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />    
+</head>
+<body>
+
+    <main>
+        <h2>Obszary naszych kompetencji</h2>
+        <p>Pomagamy uczyć się na błędach innych. Wspieramy i rekomendujemy wartościowe rozwiązania biznesowe.</p>
+
+        <div class="mobile-gear">
+            <img src="assets/gear.png" alt="gear">            
+        </div>
+              
+        <h2 class="mobile-header">POZNAJ NASZE KOMPETENCJE</h2>
+
+        <div class="gear" >
+
+            <h2 >POZNAJ NASZE KOMPETENCJE</h2>            
+                       
+            <div class="items" id="parentdiv">
+                     <div class="item">
+                    <p>Zarządzanie projektami</p>
+                    <img src="assets/icon1.png" alt="Zarządzanie projektami" />
+                </div>
+                <div class="item">    
+                    <p>Dotacje i granty międzynarodowe</p>                
+                    <img src="assets/icon2.png" alt="Zarządzanie projektami" />
+                    
+                </div>
+                <div class="item">
+                    <p>Międzynarodowa księgowość, kadry i podatki</p>                    
+                    <img src="assets/icon3.png" alt="Zarządzanie projektami" />
+                    
+                </div>
+                <div class="item">
+                    <p>Prawo międzynarodowe</p>
+                    <img src="assets/icon4.png" alt="Zarządzanie projektami" />
+                    
+                </div>
+                <div class="item">
+                    <p>Finansowanie handlu międzynarodowego</p>                    
+                    <img src="assets/icon5.png" alt="Zarządzanie projektami" />
+                    
+                </div>
+                <div class="item">
+                    <p>Pozyskiwanie inwestorów (M&A)</p>                    
+                    <img src="assets/icon6.png" alt="Zarządzanie projektami" />
+                    
+                </div>
+                <div class="item">
+                    <p>Nieruchomości</p>
+                    <img src="assets/icon7.png" alt="Zarządzanie projektami" />
+                </div>
+                <div class="item">
+                    <p>Komercjalizacja własności intelektualnej</p>
+                    <img src="assets/icon8.png" alt="Zarządzanie projektami" />
+                </div>
+                <div class="item">
+                    <p>Podnoszenie produktywności</p>
+                    <img src="assets/icon9.png" alt="Zarządzanie projektami" />
+                </div>
+                <div class="item">
+                    <p>Crowdfunding</p>
+                    <img src="assets/icon10.png" alt="Zarządzanie projektami" />
+                </div>
+                <div class="item">
+                    <p>Ubezpieczenia międzynarodowe</p>
+                    <img src="assets/icon11.png" alt="Zarządzanie projektami" />
+                </div>
+                <div class="item">
+                    <p>Marketing 360º</p>
+                    <img src="assets/icon12.png" alt="Zarządzanie projektami" />
+                </div>                   
+            </div>     
+	      
+        </div>
+        
+    </main>
+
+
+    <footer>
+        <div class="wrapper">
+            <h3>Skontaktuj się z nami</h3>
+            <p>Zadzwoń	
+                <a href="tel:+48 535 015 835">+48 535 015 835</a>
+                Lub wypełnij formularz.
+            </p>
+
+            <form>
+
+                <div class="col">
+                    <input type="text" id="name" name="name" placeholder="Imię i Nazwisko" class="input">
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Telefon" class="input" >
+                    <input type="email" id="email" name="email" placeholder="E-mail" class="input">
+                </div>
+
+                <div class="col">
+                    <input type="text" id="company" name="company" placeholder="Firma" class="input" >
+
+                    <div class="selectdiv ">
+                        <select name="employees" id="employees" placeholder="Ilość pracownilów" class="input">
+                            <option value="volvo">Mniej niż 10 </option>
+                            <option value="saab">Od 10 do 20 </option>
+                            <option value="opel">Od 20 do 30</option>
+                            <option value="audi">Powyżej 30</option>
+                          </select>
+                    </div>               
+
+                    <div class="selectdiv ">
+                      <select name="revenue" id="revenue" placeholder="Ilość pracownilów" class="input">
+                          <option value="volvo">Poniżej 100 tyś. </option>
+                          <option value="saab">Od 100 tyś do 150 tyś </option>
+                          <option value="opel">Od 150 tyś do 200 tyś</option>
+                          <option value="audi">Powyżej 200 tyś</option>
+                        </select>
+                    </div>
+                </div>
+
+                <textarea id="subject" name="subject" placeholder="Wiadomość" required></textarea>
+                
+                <div class="checkbox">
+                    <input type="checkbox" id="Checkboxes" name="Checkboxes" value="Bike">
+                    <label for="Checkboxes" required>
+                        Zapoznałem(-łam) się z <a href="#" class="checkbox-link">Polityką prywatności</a> oraz z <a href="#" class="checkbox-link">Zastrzeżeniami prawnymi</a>
+                    </label>
+                </div>          
+
+                <buttont type="submit" class="btn">WYŚLIJ</buttont>
+            </form>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
